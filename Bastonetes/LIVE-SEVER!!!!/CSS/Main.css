@@ -1,0 +1,75 @@
+/* Formatação geral do site */
+/* START */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1d1d1d;
+    font-family: "K2D", sans-serif;
+    overflow-x: hidden;
+}
+/* END */
+
+/* Formatação do Primeiro setor do site */
+/* START */
+.Top-Sector{
+    background-color: #1d1d1d00;
+    color: #a2e545;
+    text-align: center;
+    padding: 2em;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Top-Sector h1{
+    font-size: 6em;
+    margin-bottom: 0.5em;
+    animation: ShadowBlur-Animation 9s infinite alternate;
+}
+
+.Top-Sector p{
+    color: #bfbfbf;
+    font-size: 1.3em;
+    text-shadow: 0px 0px 2px #bfbfbf;
+}
+
+.Icon-Image{
+    margin-top: 1em;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px #00000081;
+}
+/* END */
+
+/* Formatação dos Setores abaixo do site */
+/* START */
+.Bottom-Sector{
+    background-color: #f5f5e1;
+    color: #333;
+    padding: 5em 2em;
+    text-align: center;
+}
+
+.Bottom-Sector h2{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.Bottom-Sector p{
+    font-size: 1.2em;
+    margin: 0 auto;
+}
+#Last-Sector{
+    border-bottom:  3px solid #a2e545;;
+}
+/* END */
+
+.ERRO{
+    color: #00000000;
+}

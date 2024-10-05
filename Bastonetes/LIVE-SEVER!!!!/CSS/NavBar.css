@@ -1,0 +1,34 @@
+.NavBar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333333d2;
+    padding: 1em;
+    color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+.NavBar h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #a2e545;
+}
+
+.NavBar ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.NavBar ul li a{
+    color: #ccc;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+.NavBar ul li a:hover{
+    color: #fff;
+}

@@ -1,0 +1,18 @@
+.Footer{
+    background-color: #1d1d1d;
+    color: #bfbfbf;
+    text-align: center;
+    padding: 2em 1em;
+    margin-top: 2em;
+}
+
+.Footer h2{
+    font-size: 1.5em;
+    color: #a2e545;
+    margin-bottom: 0.5em;
+}
+
+.Footer p{
+    font-size: 1em;
+    color: #bfbfbf;
+}

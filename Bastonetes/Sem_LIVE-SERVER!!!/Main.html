@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Sem uso de bootstrap -->
+
+  <title>Site - Cyrne</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  
+  <!-- Inserção dos CSS -->
+  <link rel="stylesheet" href="CSS/NavBar.css">
+  <link rel="stylesheet" href="CSS/Footer.css">
+  <link rel="stylesheet" href="CSS/Animations.css">
+  <link rel="stylesheet" href="CSS/Main.css">
+  <link rel="stylesheet" href="CSS/FONTk2d.css"> <!-- Adiciona os padroes da fonte "K2D" -->
+
+  <!-- Inserção da fonte "K2D" usando API da google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+  <!-- Scripts em JavaScript -->
+  <!-- <script type="text/javascript" src="/JavaScript/NavBar-Import.js"></script> --> <!-- JavaScript que recolhe o Html -->
+  <!-- <script type="text/javascript" src="/JavaScript/Footer-Import.js"></script> --> <!--  -->
+</head>
+<body>
+
+  <!-- ID para inserir a navbar -->
+  <!-- <div id="NavBar-HTML"></div> -->
+  <!-- Navbar -->
+	<nav class="NavBar">
+		<h1>Avaliacao formadora - 2</h1>
+		<ul>
+			<li><a href="Files/DER.pdf">DER</a></li>
+			<li><a href="Files/Logico.pdf">Modelo Logico</a></li>
+			<li><a href="Files/Fisico.pdf">Modelo Fisico</a></li>
+		</ul>
+	</nav>
+
+  <section class="Top-Sector" >
+    <h1>Home</h1>
+    <p class="k2d-light">Bem-vindo a minha avaliacao. Este site foi desenvolvido como parte de um trabalho acadêmico para a disciplina de ADS. Feito por Pecyrne/p>
+    <div><img src="foto.jpg" alt="Foto Cyrne" class="Icon-Image"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+  </section>
+
+  <section class="Bottom-Sector">
+    <h2>Sobre Mim (Bio)</h2>
+    <p>Olá! sou <u>Cyrne</u>, e sou estudante de <u>ADS</u>. Tenho grande interesse por desenvolvimento de Software, CyberSeguranca, Design e Desenvolvimento Web. Esse projeto, em particular, explora o processo de criação de um sistema de gerenciamento de livrarias, desde a concepção do modelo até sua implementação física. Durante meu tempo livre, gosto de explorar novas tecnologias relacionadas a Seguranca Gigital. Costumo tambem analisar praticas de game design nos jogos digitais que eu mais jogo. Este projeto foi uma oportunidade de unir meus interesses de design e desenvolvimento web. Espero que goste voce do que verá por aqui!</p>
+  </section>
+
+  <section class="Bottom-Sector">
+    <h2>Minimundo</h2>
+    <p>O projeto tem como base o seguinte cenário: Uma livraria deseja criar um sistema de gestão de estoque e vendas. A livraria vende livros que possuem um título, um ISBN único e são escritos por um ou mais autores. Cada autor tem um nome e um identificador único. A livraria possui diversas filiais, e cada filial tem um endereço e um identificador único. Cada filial pode ter várias cópias de um livro em estoque, e o estoque pode variar entre as filiais. Clientes frequentam a livraria e realizam compras. Cada cliente tem um CPF único, nome e endereço de e-mail. Cada compra é realizada em uma única filial e pode incluir múltiplos livros. A data da compra também é registrada. Este cenário é modelado através de diagramas e esquemas que permitem organizar o fluxo de dados entre as entidades envolvidas.</p>
+  </section>
+
+  <section class="Bottom-Sector">
+    <h2>Modelo Conceitual</h2>
+    <p> <a href="Files/DER.pdf">Aqui está o Diagrama Entidade-Relacionamento (DER)</a>, representando o sistema da livraria com as entidades principais: Livros, Filiais, Clientes, Compras e Autores.</p>
+  </section>
+
+  <section class="Bottom-Sector">
+    <h2>Modelo Lógico</h2>
+    <p>O <a href="Files/Logico.pdf">Modelo Lógico</a> é o mapeamento do DER para um formato que pode ser implementado em um banco de dados relacional. Aqui, cada entidade é transformada em tabelas com colunas e chaves, de acordo com as regras de normalização.</p>
+  </section>
+
+  <section class="Bottom-Sector" id="Last-Sector">
+    <h2>Modelo Físico</h2>
+    <p>O <a href="Files/Fisico.pdf">Modelo Físico</a> foi criado no MySQL Workbench e está disponível para download. Ele contém todas as tabelas, colunas, tipos de dados e relacionamentos necessários para implementar o sistema da livraria.</p>
+  </section>
+
+  <!-- ID para inserir o footer -->
+  <!-- <div id="Footer-HTML"></div> -->
+ <footer class="Footer">
+		<h2>Avaliacao formadora 2</h2>
+		<p>&copy; 2024 Cyrne. Todos os direitos reservados.</p>
+	</footer>
+
+<!-- formatacao ficou zoada pois eu usei o notepad++ para formatar essa versao :( -->
+</body>
+</html>
+
+<!--                                   AAAAA  AAA                         
+                                    AAAAA      AAA                        
+                                 AAAAA          AAAA                      
+                               AAAAA              AAA                     
+                            AAAAA                  AAAA                   
+                  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAA                  
+                  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA   AAAA                
+                  AAAAAAAAAAA             AAAAAAAAA     AAA               
+                AAAA AAAAA                   AAAAAA      AAAA             
+              AAAAAAAAAAA  A A             A  AAAAA        AAA            
+           AAAAA   AA AAA A   A A AAA A A A      A          AAAA          
+        AAAAAA     AA AAAA                    A  A            AAA         
+      AAAAA        AA  AAAAA                A    A             AAAA       
+    AAAAAAAAAA     AAAAAAAAAAAAAAAAAAAAAAAAA     A               AAA      
+       AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     AA                AAAA    
+                  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                AAAA   
+                   AAAA AAAAAAAAAAAAAAAAAAAAAAAAAAA                  AAAA 
+                   AAA   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA       AAAA
+                   AAA  AAAAAAA     AAAAAA AA  AAAA      AAAAAAAAAAAAAAAAA
+                   AAAAAAAAA A AA    AA A  AAAAAAA                   AAAAA
+                   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                        
+                   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                        
+                   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                        
+                   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                        
+                   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                        
+                   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                        
+                   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                        
+                   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                        
+                   AAAAAAAAAA               AA   AA                       
+                   AAAA         AAA A  A  AAA     A                       
+                  AA AA AAAAA  AA  AAA AA  A     AA                       
+                  A  A       A  AAAAAAA    AAAAA  A                       
+                  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+-->
